@@ -5,7 +5,7 @@ import fetchData from "../helpers"
 // assets 
 import wave from "../assets/wave.svg"
 
-// elements
+// components
 import Nav from "../components/Nav";
 
 // loader
@@ -19,7 +19,7 @@ const Main = () => {
 
     return (
         <div className="layout">
-            <Nav />
+            <Nav userName={userName} />
             <main>
                 <Outlet />
             </main>
