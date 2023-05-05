@@ -1,7 +1,11 @@
 // Local storage functions
 
-const fetchData = (key) => {
+export const fetchData = (key) => {
     return JSON.parse(localStorage.getItem(key))
 }
 
-export default fetchData
+
+// delete item
+export const deleteItem = ({key}) => {
+    return  localStorage.removeItem(key)
+};

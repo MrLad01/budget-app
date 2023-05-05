@@ -1,6 +1,6 @@
 // helper function
 import { useLoaderData } from "react-router-dom";
-import fetchData from "../helpers"
+import {fetchData} from "../helpers"
 
 // loader
 export function dashboardLoader(){

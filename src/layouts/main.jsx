@@ -1,6 +1,6 @@
 // helper function
 import { useLoaderData, Outlet } from "react-router-dom";
-import fetchData from "../helpers"
+import {fetchData} from "../helpers"
 
 // assets 
 import wave from "../assets/wave.svg"
