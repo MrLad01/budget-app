@@ -6,7 +6,7 @@ import Error from "./pages/Error";
 import Main, {mainLoader} from "./layouts/main";
 
 // library
-import { ToastContainer } from "react-toastify";
+import {ToastContainer}  from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
 
 // actions
@@ -35,12 +35,10 @@ const router = createBrowserRouter([
 ])
 
 function App() {
-  return (
-    <div className="App">
+  return <div className="App">
       <RouterProvider router={router} />
       <ToastContainer />
-    </div>
-  );
+    </div>;
 }
 
 export default App;
