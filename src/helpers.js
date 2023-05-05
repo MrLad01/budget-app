@@ -1,5 +1,7 @@
 // Local storage functions
 
-export const fetchData = (key) => {
+const fetchData = (key) => {
     return JSON.parse(localStorage.getItem(key))
 }
+
+export default fetchData
